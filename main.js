@@ -1,7 +1,8 @@
-const app = document.getElementById('app')
+import './CSS/style.css'
+import {productSlider} from './components/product-slider';
 
-app.innerHTML = 
-`<!-- SLIDER -->
+
+document.querySelector('#app').innerHTML = `<!-- SLIDER -->
     <section class="slider">
         <h1>Bienvenid@</h1>
         <img class="slider-img" src="https://www.rover.com/blog/wp-content/uploads/2018/11/golden-retriever-2061715_1920.jpg" alt="imagen-perrito">
@@ -15,8 +16,7 @@ app.innerHTML =
         
     </section>
 `
-app.innerHTML += 
-`<!-- NAVBAR -->
+document.querySelector('#app').innerHTML += `<!-- NAVBAR -->
     <nav class="navbar">
 
         <img src="https://media.istockphoto.com/id/931785704/vector/paw_print.jpg?s=612x612&w=0&k=20&c=CXBPHlf7XHdJiiOULJrI9nGZjVNAj7cqnkM_eDyDdCU=" alt="paw-icon">
@@ -28,8 +28,8 @@ app.innerHTML +=
         </ul>
 
     </nav>`
-app.innerHTML += 
-`<!-- SUBSCRIBIRSE -->
+document.querySelector('#app').innerHTML += productSlider();
+document.querySelector('#app').innerHTML += `<!-- SUBSCRIBIRSE -->
     <section class="subscribe">
         <h2>¡Subscríbete para obtener las mejores ofertas!</h2>
 
