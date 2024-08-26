@@ -14,8 +14,9 @@ app.innerHTML =
           </svg>
         
     </section>
-
-    <!-- NAVBAR -->
+`
+app.innerHTML += 
+`<!-- NAVBAR -->
     <nav class="navbar">
 
         <img src="https://media.istockphoto.com/id/931785704/vector/paw_print.jpg?s=612x612&w=0&k=20&c=CXBPHlf7XHdJiiOULJrI9nGZjVNAj7cqnkM_eDyDdCU=" alt="paw-icon">
@@ -26,9 +27,9 @@ app.innerHTML =
             <li>Contacto</li>
         </ul>
 
-    </nav>
-
-    <!-- SUBSCRIBIRSE -->
+    </nav>`
+app.innerHTML += 
+`<!-- SUBSCRIBIRSE -->
     <section class="subscribe">
         <h2>¡Subscríbete para obtener las mejores ofertas!</h2>
 
